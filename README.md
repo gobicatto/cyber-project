@@ -1,21 +1,15 @@
 • Automation on Cyber Operations
-Automation Bash script to connect to Digital Ocean remote server anonymously,
-scan target with Whois and Nmap, and download the information back to local machine.
-The script verifies and installs required packages to run on local machine.
+   
+Developed a Bash script to automate connections to a Digital Ocean remote server anonymously, perform target scans using Whois and Nmap, and transfer the gathered data back to the local system. The script also checks for and installs any necessary packages on the local machine.
 
 • Auto System Information and Hash Checking
-Automation Python script to display system information in Linux local machine.
-Second one is automation Python script to generate hash of provided file and verify
-the hash against an offline malicious hash database by MalwareBazaar.
+
+Designed a Python script to display system information on a Linux machine. Additionally, created a separate Python script to generate and verify file hashes against an offline malicious hash database provided by MalwareBazaar.
 
 • Automated Network and Vulnerabilities Scanning – PenTest Project
-Automation in Python script to scan network based on provided network IP
-address. Utilize Nmap, Masscan, Hydra, and Searchsploit to scan online IP addresses in
-the network for open TCP/UDP ports, weak passwords on four services (SSH, FTP, Telnet,
-RDP) by Hydra brute force, and potential vulnerabilities from Searchsploit database.
+
+Implemented a Python automation script to perform network scans using a specified network IP address. The script incorporates Nmap and Masscan to identify open TCP/UDP ports, Hydra to test for weak passwords on services such as SSH, FTP, Telnet, and RDP, and Searchsploit to detect potential vulnerabilities. 
 
 • Shadow Sentry – SOC Project
-Setup a single node remote server with Elasticsearch, Logstash, Kibana, Filebeat and
-Cowrie honeypot installed. The script is automation Bash script for Nmap scan, Hydra, and
-Metasploit brute force to simulate attacks of threat actors. Logs collecting in unique
-Cowrie index, alert setup for brute force attempts, and key data visualization on Kibana.
+
+Configured a remote server with Elasticsearch, Logstash, Kibana, Filebeat, and Cowrie honeypot. Created an automated Bash script to execute Nmap scans, Hydra, and Metasploit brute force attacks, emulating threat actor behaviors. Set up log collection in a dedicated Cowrie index, implemented alerts for brute force attempts, and created a Kibana dashboard for data visualization. 
